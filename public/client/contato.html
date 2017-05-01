@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contato</title>
+
+  </head>
+  <body>
+    <h1>Loja Virtual</h1>
+    <a href="index.html">Home</a>
+    <a href="precos.html">Preços</a>
+    <a href="contato.html">Contato</a>
+    <a href="sobre.html">Sobre</a>
+    <h2>Formulário de contato</h2>
+    <form id="rd-form">
+      <div>
+        Nome: <input type="text" name="name"/>
+      </div>
+      <div>
+        E-mail: <input type="email" name="email"/>
+      </div>
+      <div>
+        Texto de contato: <textarea name="content"></textarea>
+      </div>
+      <input type="submit" value="Enviar"/>
+    </form>
+    <script>
+      function getUrlParameter(sParam) {
+        var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+          sURLVariables = sPageURL.split('&'),
+          sParameterName,
+          i;
+
+        for (i = 0; i < sURLVariables.length; i++) {
+          sParameterName = sURLVariables[i].split('=');
+
+          if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+          }
+        }
+      }
+
+      if(getUrlParameter('email')){
+        alert('Seu contato foi enviado, responderemos o quanto antes.');
+      }
+    </script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/client/rd.js"></script>
+  </body>
+</html>
