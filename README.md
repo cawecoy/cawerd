@@ -27,4 +27,4 @@ Then follow the steps below to get this application installed and running:
 
 ```rails s```
 
-Now check the browser to the URL specified by you rails server adding `/users` to its end.
+Now go to the URL specified by you rails server adding `/users` to its end.
