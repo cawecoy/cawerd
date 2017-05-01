@@ -14,7 +14,7 @@ Then follow the steps below to get the server-side application installed and run
 
 1. Clone respected git repository
 
-```git clone https://github.com/martynbiz/human_services_finder.git```
+```git clone https://github.com/cawecoy/cawerd.git```
 
 2. Install all dependencies
 
