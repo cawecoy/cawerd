@@ -1,6 +1,6 @@
 # README
 
-## RD Chalange
+## RD Challenge
 
 ### Accepted by Cawe Coy
 
@@ -28,3 +28,18 @@ Then follow the steps below to get this application installed and running:
 ```rails s```
 
 Now go to the URL specified by you rails server adding `/users` to its end.
+
+## Javascript Client-side Library
+
+Just add this before the close `</body>` tag of the pages you want to track users and you are done.
+
+```<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>```
+```<script src="https://cawerd.herokuapp.com/users/client/rd.js"></script>```
+
+In case you are hosting the server-side application in your own server, add this just before the above code:
+
+```<script>var rd_server_url = "https://your-server-address.com";</script>```
+
+Changing `https://your-server-address.com` to the server address you installed the server-side application.
+
+If you have any trouble, please don't hesitate to send feedback and collaborate with this application through GitHub :)
