@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @page.title %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @page.url %>
+</p>
+
+<p>
+  <strong>Access at:</strong>
+  <%= @page.access_at %>
+</p>
+
+
+<p>
+  <strong>User unique ID:</strong>
+  <%= @page.uid %>
+</p>
+
+<p>
+  <strong>User email:</strong>
+  <% if !@page.user_id.nil? %>
+    <%= @page.user.email %>
+  <% else %>
+    Desconhecido
+  <% end %>
+</p>
+
+<%= link_to 'Back', pages_path %>
