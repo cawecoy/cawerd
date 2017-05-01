@@ -1,40 +1,30 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# RD Chalange
 
-Things you may want to cover:
+## Accepted by Cawe Coy
 
-* Ruby version
+# Installation guide
 
-* System dependencies
+First off, make sure you have Ruby >= 2.1.0, Bundler, SQLite3 and Rails >= 4.2.2 installed.
 
-* Configuration
+Then follow the steps below to get this application installed and running:
 
-* Database creation
+1. Clone respected git repository
 
-* Database initialization
+```git clone https://github.com/martynbiz/human_services_finder.git```
 
-* How to run the test suite
+2. Install all dependencies
 
-* Services (job queues, cache servers, search engines, etc.)
+```bundle install```
 
-* Deployment instructions
+3. Create db and migrate schema
 
-* ...
+```rake db:create
+rake db:migrate```
 
+4. Now run your application
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+```rails s```
 
-# RD App
-
-## Installation
-
-Make sure you have Ruby version >= 2.1.0, Bundler, SQLite3 and Rails version >= 4.2.2 installed.
-
-...
-
-## Usage
-
-...
+Now check the browser to the URL specified by you rails server adding `/users` to its end.
