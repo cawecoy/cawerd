@@ -1,4 +1,4 @@
-if (typeof rd_server_url !== 'undefined') {
+if (typeof rd_server_url === 'undefined') {
 	var rd_server_url = 'https://cawerd.herokuapp.com';
 }
 
