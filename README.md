@@ -1,10 +1,10 @@
-== README
+# README
 
-# RD Chalange
+## RD Chalange
 
-## Accepted by Cawe Coy
+### Accepted by Cawe Coy
 
-# Installation guide
+## Installation guide
 
 First off, make sure you have Ruby >= 2.1.0, Bundler, SQLite3 and Rails >= 4.2.2 installed.
 
