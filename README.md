@@ -20,8 +20,8 @@ Then follow the steps below to get this application installed and running:
 
 3. Create db and migrate schema
 
-```rake db:create
-rake db:migrate```
+```rake db:create```
+```rake db:migrate```
 
 4. Now run your application
 
