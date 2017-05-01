@@ -10,7 +10,7 @@
 
 First off, make sure you have Ruby >= 2.1.0, Bundler, SQLite3 and Rails >= 4.2.2 installed.
 
-Then follow the steps below on Terminal to get the server-side application installed and running:
+Then follow the steps below on Terminal to get the server-side application installed and running locally:
 
 1. Clone respected git repository
 
@@ -22,7 +22,7 @@ Then follow the steps below on Terminal to get the server-side application insta
 
 3. Install all dependencies
 
-```bundle install```
+```bundle install --without production```
 
 3. Create db and migrate schema
 
