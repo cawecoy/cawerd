@@ -1,4 +1,6 @@
-var url_base = "https://cawerd.herokuapp.com"
+if (typeof rd_server_url !== 'undefined') {
+	var rd_server_url = rd_server_url?rd_server_url:"https://cawerd.herokuapp.com";
+}
 
 function getDateTime() {
     var now     = new Date(); 
@@ -52,7 +54,7 @@ $("form").submit(function(e){
     try{
 		$.ajax({
 			type: 'POST',
-			url: url_base+'/users.json',
+			url: rd_server_url+'/users.json',
 			data: user
 		})
 		.done(function(response){
@@ -104,7 +106,7 @@ $(document).ready(function() {
 	try{
 		$.ajax({
 			type: 'POST',
-			url: url_base+'/pages.json',
+			url: rd_server_url+'/pages.json',
 			data: page
 		})
 		.done(function(response){
