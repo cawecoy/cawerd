@@ -2,13 +2,15 @@
 
 ## RD Challenge
 
-### Accepted by Cawe Coy
+#### Accepted by Cawe Coy
 
-## Installation guide
+### Installation guide
+
+#### Ruby on Rails server-side application
 
 First off, make sure you have Ruby >= 2.1.0, Bundler, SQLite3 and Rails >= 4.2.2 installed.
 
-Then follow the steps below to get this application installed and running:
+Then follow the steps below to get the server-side application installed and running:
 
 1. Clone respected git repository
 
@@ -27,9 +29,9 @@ Then follow the steps below to get this application installed and running:
 
 ```rails s```
 
-Now go to the URL specified by you rails server adding `/users` to its end.
+Now go to check your server address.
 
-## Javascript Client-side Library
+#### Javascript client-side library
 
 Just add this before the close `</body>` tag of the pages you want to track users and you are done.
 
